@@ -68,7 +68,7 @@ func streamEndHandler(
 	var wasLooping bool
 	if len(r.Queue()) == 0 && r.Loop() == 0 {
 		core.DeleteRoom(chatID)
-		core.Bot.SendMessage(cid, F(cid, "stream_queue_finished"))
+	//	core.Bot.SendMessage(cid, F(cid, "stream_queue_finished"))
 		return
 	} else {
 		wasLooping = r.Loop() > 0
