@@ -20,7 +20,7 @@ HELP_PUBLIC_BTN: "🌍 Public"
 HELP_OWNER_BTN: "👑 Owner"
 HELP_SUDOERS_BTN: "⚡ Sudoers"
 
-BACK_BTN: "⬅️ Back"
+BACK_BTN: "ʙᴧᴄᴋ"
 
 # basically this string used in /command [bool]
 invalid_bool: "⚠️ <b>Invalid value.</b>\nUse 'enable' or 'disable'."
