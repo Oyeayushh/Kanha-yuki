@@ -111,8 +111,8 @@ func loadConfig() {
 	OwnerID = getInt64("OWNER_ID", 0)
 	SpotifyClientID = getString("SPOTIFY_CLIENT_ID", "")
 	SpotifyClientSecret = getString("SPOTIFY_CLIENT_SECRET", "")
-	FallenAPIURL = getString("FALLEN_API_URL", "https://beta.fallenapi.fun")
-	FallenAPIKey = getString("FALLEN_API_KEY", "")
+	YTAPIKey   = getString("YT_API_KEY", "")
+YTProxyURL = getString("YTPROXY_URL", "")
 
 	DefaultLang = getString("DEFAULT_LANG", "en")
 	DurationLimit = int(getInt64("DURATION_LIMIT", 4200)) // In seconds
