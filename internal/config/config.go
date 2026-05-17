@@ -112,7 +112,7 @@ func loadConfig() {
 	SpotifyClientID = getString("SPOTIFY_CLIENT_ID", "")
 	SpotifyClientSecret = getString("SPOTIFY_CLIENT_SECRET", "")
 	YTAPIKey   = getString("YT_API_KEY", "")
-YTProxyURL = getString("YTPROXY_URL", "")
+YTProxyURL = getString("YTPROXY_URL", "https://tgapi.xbitcode.com")
 
 	DefaultLang = getString("DEFAULT_LANG", "en")
 	DurationLimit = int(getInt64("DURATION_LIMIT", 4200)) // In seconds
